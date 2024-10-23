@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 100px;
+    font-family: Arial, sans-serif;
+}
+
+#contador {
+    user-select: none; /* Para evitar la selección del texto al hacer clic */
+}
